@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             //Order Matters
             AuthorSeeder::class,
-            BookSeeder::class
+            BookSeeder::class,
         ]);
     }
 }

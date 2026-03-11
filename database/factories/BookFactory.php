@@ -14,7 +14,7 @@ class BookFactory extends Factory
      */
     public function definition()
     {
-        $author = Author::inRandomeOrder()->first();
+        $author = Author::inRandomOrder()->first();
         return [
             //Newer laravel version use fake() instead of $this->faker
             'title' => $this->faker->name,
